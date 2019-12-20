@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ienovo.bnan.Profile"
+    android:background="#fff">
+
+
+    <styleandfont.MyTextViewbigr3
+        android:drawableRight="@drawable/ic_login_24dp"
+        android:id="@+id/toolbar"
+        android:elevation="4dp"
+        android:text="تسجيل الدخول"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+
+        android:gravity="right|center"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:layout_marginBottom="0dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_new3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:paddingTop="35dp"
+       >
+        <styleandfont.MyTextViewbigr2
+            android:id="@+id/login_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+
+
+            android:textColor="@color/colorPrimary"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:layout_below="@+id/button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="0dp">
+            <!--android:background="@drawable/whiteb"-->
+            <!--android:singleLine="true"-->
+            <!--android:singleLine="true"-->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="0dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/colorPrimary"
+                    android:drawableTint="@color/colorPrimary"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHighlight="@color/colorPrimary"
+                    android:textColorLink="@color/colorPrimary"
+                    android:backgroundTint="@color/colorPrimary"
+
+
+                    android:layout_height="wrap_content">
+
+                    <styleandfont.MyEditText
+
+                        android:backgroundTint="@color/colorPrimary"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:drawableRight="@drawable/ic_perm_identity_black_24dp"
+                        android:id="@+id/editText1"
+                        android:textSize="14dp"
+                        android:drawableTint="@color/colorPrimary"
+android:textColorHighlight="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"
+                        android:maxLines="1"
+                        android:hint="اسم المستخدم"
+                        android:inputType="text"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:gravity="right|center"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorPrimary" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/colorPrimary"
+                    android:drawableTint="@color/colorPrimary"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHighlight="@color/colorPrimary"
+                    android:textColorLink="@color/colorPrimary"
+                    android:backgroundTint="@color/colorPrimary"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp">
+
+
+
+
+                    <styleandfont.MyEditText
+                        android:id="@+id/editText2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="16dp"
+                        android:textSize="14dp"
+                        android:maxLines="1"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:drawableRight="@drawable/ic_lock_outline_black_24dp"
+                        android:drawableTint="@color/colorPrimary"
+                        android:hint="كلمة المرور"
+                        android:inputType="textPassword"
+                        android:paddingRight="4dp"
+                        android:paddingLeft="4dp"
+                        android:gravity="right|center"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorPrimary" />
+                </android.support.design.widget.TextInputLayout>
+                <!--<CheckBox-->
+                    <!--android:text="حفظ الدخول"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/checkBox2"-->
+                    <!--android:layout_gravity="center" />-->
+                <styleandfont.CustomButtona
+                    android:id="@+id/login"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/redb"
+                    android:text="دخـول"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp" />
+
+                <!--<styleandfont.MyTextViewbigr3-->
+                    <!--android:layout_width="286dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="right"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:text="نسيت كلمة السر ؟"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textColor="#fafafa" />-->
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:textColor="#fff"
+            android:background="@drawable/new_logo_login"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:id="@+id/button"
+            android:textSize="120dp"
+            android:textStyle="normal|bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/test22221"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+            <styleandfont.MyTextViewbigr3
+                android:drawableLeft="@drawable/ic_call_black_24dp"
+                android:text="اتصل بالدعم"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+
+                android:gravity="center"
+                android:id="@+id/textView5"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

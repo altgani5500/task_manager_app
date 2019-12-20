@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#bd2b2d</color>-->
+    <!--<color name="colorPrimaryDark">#bd2b2d</color>-->
+    <!--<color name="colorAccent">#bd2b2d</color>-->
+    <!--<color name="ya">#f5f102</color>-->
+
+    <!--<color name="colorPrimary">#195F92</color>-->
+    <!--<color name="colorPrimaryDark">#195F92</color>-->
+    <!--<color name="colorAccent">#195F92</color>-->
+
+    <!--<color name="ya">#E1D167</color>-->
+
+    <!--<color name="colorPrimary">#F4B22E</color>-->
+    <!--<color name="colorPrimaryDark">#F4B22E</color>-->
+    <!--<color name="colorAccent">#F4B22E</color>-->
+    <!--#F4B22E-->
+    <!--#F7B227-->
+
+    <!--#222B56-->
+
+    <!--: 	#F2B02B-->
+
+    <color name="colorPrimary">#222B56</color>
+    <color name="colorPrimaryDark">#222B56</color>
+    <color name="colorAccent">#222B56</color>
+
+    <color name="ya">#E1D167</color>
+
+
+
+
+</resources>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/towcolor"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+    <styleandfont.MyTextViewbigr3
+        android:drawableRight="@drawable/ic_person_black_24dp21"
+        android:id="@+id/toolbar"
+        android:elevation="4dp"
+        android:text="الملف الشخصي"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+
+        android:gravity="right|center"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:layout_marginBottom="20dp" />
+
+    <!--android:text="Digtal Card"-->
+    <!--android:text="ديجتال كارد"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_title"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/whiteb"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <!--android:singleLine="true"-->
+            <!--android:singleLine="true"-->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="30dp">
+
+
+                <styleandfont.MyTextViewbigr2
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+
+
+                        android:textSize="14dp"
+                        android:maxLines="1"
+                        android:text="التجاني معتصم"
+
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:gravity="center"
+                    android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="10dp" />
+
+
+
+
+
+                    <styleandfont.MyTextViewbigr3
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textSize="14dp"
+                        android:maxLines="1"
+                        android:drawableRight="@drawable/ic_next_week_black_24dp"
+                        android:drawableTint="@color/colorPrimary"
+                        android:hint="قسم التطوير"
+                        android:inputType="textPassword"
+                        android:paddingRight="0dp"
+                        android:paddingLeft="0dp"
+                        android:gravity="right" />
+
+                <styleandfont.MyTextViewbigr3
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="14dp"
+                    android:maxLines="1"
+                    android:drawableRight="@drawable/ic_call_black_24dp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:hint="0919390260"
+                    android:inputType="textPassword"
+                    android:gravity="right"
+                    android:layout_marginTop="7dp" />
+
+                <styleandfont.MyTextViewbigr3
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="14dp"
+                    android:maxLines="1"
+                    android:drawableRight="@drawable/languge"
+                    android:drawableTint="@color/colorPrimary"
+                    android:hint="قرع الشرقية"
+                    android:inputType="textPassword"
+                    android:gravity="right"
+                    android:layout_marginTop="7dp" />
+
+                <!--<styleandfont.MyTextViewbigr3-->
+                    <!--android:layout_width="286dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="right"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:text="نسيت كلمة السر ؟"-->
+                    <!--android:gravity="center" />-->
+
+
+                <styleandfont.CustomButtona
+                    android:id="@+id/login"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/redb"
+                    android:text="ارسال مهمة"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_marginTop="15dp" />
+
+                <styleandfont.CustomButtona
+                    android:id="@+id/login2"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/redb"
+                    android:text="اجراء اتصال"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                   />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:scaleType="centerCrop"
+                        android:id="@+id/user_profile_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/login_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/circle"
+
+            android:elevation="4dp"
+            android:src="@drawable/pro" />
+        <!--android:background="@drawable/user_profile_image_background"-->
+
+    </RelativeLayout>
+
+</RelativeLayout>

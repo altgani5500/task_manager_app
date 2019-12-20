@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.1"
+    defaultConfig {
+        applicationId "com.example.ienovo.bnan"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    //testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile 'com.android.support:design:25.0.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
+    compile 'klogi.com:rtlviewpager:1.0.0'
+    compile 'de.hdodenhof:circleimageview:2.2.0'
+    compile 'com.github.clans:fab:1.6.2'
+    compile 'org.apache.commons:commons-lang3:3.6'
+    compile 'pub.devrel:easypermissions:0.2.0'
+
+//    compile 'com.android.support:appcompat-v7:23.1.0'
+//    compile 'com.android.support:design:23.1.0'
+
+}

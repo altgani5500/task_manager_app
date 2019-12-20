@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">صروح تك </string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="sex">
+        <item>الجنس</item>
+        <item>ذكر</item>
+        <item>انثي</item>
+    </string-array>
+
+
+    <string-array name="cun">
+        <item>الجنسية</item>
+        <item>بحريني</item>
+        <item>اماراتي</item>
+    </string-array>
+
+
+    <string-array name="gtaa">
+        <item>اختر نوع القطاع</item>
+        <item>خاص</item>
+        <item>حكومي</item>
+    </string-array>
+
+    <string-array name="moahl">
+        <item>المؤهل التعليمي</item>
+        <item>ثانوي</item>
+        <item>تعليم عالي</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+</resources>

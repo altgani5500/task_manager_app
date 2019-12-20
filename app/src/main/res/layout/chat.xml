@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="320dp"
+    android:layout_height="475dp"
+
+    android:background="@drawable/test22222"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/txtclose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="right"
+       />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/txtclose"
+        android:id="@+id/linearLayout3">
+
+        <styleandfont.MyTextViewbigr2
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="مراسـلة"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+          />
+
+        <styleandfont.MyTextViewbigr3
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="التجاني معتصم"
+           android:id="@+id/name1"
+            android:textSize="12dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_above="@+id/button4"
+        android:layout_below="@+id/linearLayout3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</RelativeLayout>

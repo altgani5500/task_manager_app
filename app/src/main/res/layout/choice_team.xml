@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ienovo.bnan.Choice_team">
+    <styleandfont.CustomButtona
+
+        android:id="@+id/toolbar3"
+        android:elevation="4dp"
+        android:text="اختر القسم"
+        android:drawableRight="@drawable/ic_next_week_black_24dp2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+
+        android:gravity="right|center"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+
+        <styleandfont.CustomButtona
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/erorrp"
+            android:textSize="14sp"
+            android:textColor="#000"
+
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/er"
+            android:text="فشل الاتصال اعد المحاولة"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:layout_marginBottom="40dp" />
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/linearLayout"
+        android:id="@+id/swipe_container3"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar3">
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recylcerView23"
+        android:layout_below="@+id/toolbar3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

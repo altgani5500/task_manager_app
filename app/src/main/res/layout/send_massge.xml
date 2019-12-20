@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+
+    <android.support.constraint.ConstraintLayout
+
+        android:id="@+id/button61"
+
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+
+        android:gravity="right|center"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp">
+
+        <styleandfont.CustomButtona
+            android:text="ارسال مهمة"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/button2"
+            android:textColor="#fff"
+            android:layout_marginEnd="0dp"
+            fab:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="0dp"
+            android:textSize="17dp"
+            android:background="@android:color/transparent"
+            android:drawableRight="@drawable/edit" />
+
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--android:layout_marginBottom="0dp"-->
+        <!--android:layout_marginTop="0dp"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+
+
+        <!--<Button-->
+
+            <!--android:layout_width="35dp"-->
+
+            <!--android:layout_height="wrap_content"-->
+
+            <!--android:id="@+id/button5"-->
+            <!--android:background="@android:color/transparent"-->
+
+            <!--android:drawableRight="@drawable/ic_insert_photo_black_24dp"-->
+            <!--android:paddingTop="3dp" />-->
+        <!--<Button-->
+            <!--android:text=""-->
+            <!--android:drawableLeft="@drawable/ic_attachment_black_24dp"-->
+            <!--android:src="@drawable/ic_notifications_black_24dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:id="@+id/button6"-->
+            <!--fab:layout_constraintLeft_toRightOf="@+id/button5"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:paddingTop="3dp" />-->
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/profile1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/button61"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/button3">
+
+        <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/constr">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/whiteb"
+                    android:id="@+id/constr"
+                    android:padding="15dp">
+
+                    <!--<Button-->
+                    <!--android:text="Button"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+
+                    <!--android:id="@+id/button2"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--app:layout_constraintRight_toRightOf="parent"-->
+                    <!--android:layout_marginRight="16dp"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--android:layout_marginBottom="16dp"-->
+                    <!--android:layout_marginTop="16dp"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:scaleType="centerCrop"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:id="@+id/user_profile_photo"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_below="@+id/login_title"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/user_profile_image_background"
+                        app:layout_constraintRight_toRightOf="parent"
+
+                        android:src="@drawable/pro" />
+
+
+                    <!--<styleandfont.CustomButtona-->
+                    <!--android:background="@drawable/redb"-->
+                    <!--android:text="ارسال مهمة"-->
+                    <!--android:textAllCaps="false"-->
+                    <!--android:textColor="#fff"-->
+                    <!--android:textSize="14sp"-->
+
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--tools:layout_editor_absoluteX="40dp"-->
+                    <!--android:id="@+id/button3"-->
+                    <!--app:layout_constraintTop_toTopOf="parent"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+
+                    <!--app:layout_constraintVertical_bias="0.8"-->
+                    <!--android:layout_marginBottom="10dp" />-->
+
+                    <!--<styleandfont.CustomButtona-->
+                    <!--android:background="@drawable/redb"-->
+                    <!--android:text="ارسال مهمة"-->
+                    <!--android:textAllCaps="false"-->
+                    <!--android:textColor="#fff"-->
+                    <!--android:textSize="14sp"-->
+
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--tools:layout_editor_absoluteX="40dp"-->
+                    <!--android:id="@+id/button4"-->
+                    <!--tools:layout_editor_absoluteY="10dp" />-->
+
+                    <styleandfont.MyTextViewbigr2
+                        android:text="التجاني معتصم التجاني"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:id="@+id/textView2"
+                        app:layout_constraintRight_toLeftOf="@+id/user_profile_photo"
+                        android:paddingRight="10dp"
+                        android:paddingTop="13dp" />
+
+
+
+
+
+                    <styleandfont.MyTextViewbigr2
+
+                        android:textColor="@android:color/darker_gray"
+                        app:layout_constraintRight_toLeftOf="@+id/user_profile_photo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView6"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:text="اسم المستلم "
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:paddingRight="10dp"
+                        android:paddingTop="0dp"
+                        android:paddingStart="10dp"
+                        android:paddingLeft="5dp" />
+
+
+
+
+                </android.support.constraint.ConstraintLayout>
+                <styleandfont.MyEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:textCursorDrawable="@drawable/cersur"
+                    android:textSize="16dp"
+                    android:background="@drawable/whiteb"
+                    android:drawableTint="@color/colorPrimary"
+                    android:hint="اكتب المهمة هنا"
+                    android:inputType="textMultiLine"
+                    android:gravity="right"
+                    android:layout_marginTop="7dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:id="@+id/myEditText"
+
+                    android:padding="6dp" />
+
+
+
+
+                <styleandfont.MyTextViewbigr3
+                    android:drawableRight="@drawable/ic_attachment_black_24dp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:hint="  ملفات مرفقة :"
+
+                    android:gravity="right|center"
+                    android:background="@drawable/whiteb"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/button18"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textSize="11dp"
+                    android:layout_below="@+id/button17"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="10dp" />
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/whiteb"
+                    android:id="@+id/constr2"
+                    android:paddingTop="15dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="15dp">
+
+                    <!--<Button-->
+                    <!--android:text="Button"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+
+                    <!--android:id="@+id/button2"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--app:layout_constraintRight_toRightOf="parent"-->
+                    <!--android:layout_marginRight="16dp"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--android:layout_marginBottom="16dp"-->
+                    <!--android:layout_marginTop="16dp"-->
+                    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:id="@+id/ivAttachment"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_below="@+id/login_title"
+                        android:layout_centerHorizontal="true"
+
+                        app:layout_constraintRight_toRightOf="parent"
+                        android:elevation="4dp"
+                        android:src="@drawable/upoadf" />
+
+
+                    <!--<styleandfont.CustomButtona-->
+                    <!--android:background="@drawable/redb"-->
+                    <!--android:text="ارسال مهمة"-->
+                    <!--android:textAllCaps="false"-->
+                    <!--android:textColor="#fff"-->
+                    <!--android:textSize="14sp"-->
+
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--tools:layout_editor_absoluteX="40dp"-->
+                    <!--android:id="@+id/button3"-->
+                    <!--app:layout_constraintTop_toTopOf="parent"-->
+                    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+
+                    <!--app:layout_constraintVertical_bias="0.8"-->
+                    <!--android:layout_marginBottom="10dp" />-->
+
+                    <!--<styleandfont.CustomButtona-->
+                    <!--android:background="@drawable/redb"-->
+                    <!--android:text="ارسال مهمة"-->
+                    <!--android:textAllCaps="false"-->
+                    <!--android:textColor="#fff"-->
+                    <!--android:textSize="14sp"-->
+
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--tools:layout_editor_absoluteX="40dp"-->
+                    <!--android:id="@+id/button4"-->
+                    <!--tools:layout_editor_absoluteY="10dp" />-->
+
+                    <styleandfont.MyTextViewbigr2
+
+                        android:text="ارفق ملف :"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+
+                        android:textSize="11dp"
+                        android:id="@+id/tv_file_name"
+                        app:layout_constraintRight_toLeftOf="@+id/ivAttachment"
+                        android:paddingRight="10dp"
+                        android:textColor="@android:color/darker_gray"
+                        android:paddingTop="0dp" />
+
+
+
+                    <!--<styleandfont.MyTextViewbigr2-->
+
+                        <!--android:textColor="@android:color/darker_gray"-->
+                        <!--app:layout_constraintRight_toLeftOf="@+id/ivAttachment"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:id="@+id/tv_file_name"-->
+                        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                        <!--android:text="المسار "-->
+                        <!--app:layout_constraintTop_toTopOf="parent"-->
+                        <!--android:paddingRight="9dp"-->
+                        <!--android:paddingTop="0dp"-->
+                        <!--android:paddingStart="10dp"-->
+                        <!--android:paddingLeft="5dp" />-->
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="23dp"
+                        android:layout_marginTop="20dp"
+                        android:indeterminate="false"
+                        android:max="100"
+                        app:layout_constraintRight_toLeftOf="@+id/ivAttachment"
+                        android:minHeight="50dp"
+                        android:minWidth="200dp"
+                        android:progress="1" />
+                    <styleandfont.MyTextViewbigr3
+
+                        android:textColor="@android:color/darker_gray"
+                        app:layout_constraintRight_toLeftOf="@+id/ivAttachment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:text="اسم المستلم "
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="12dp"
+                        android:paddingRight="8dp"
+                        android:paddingTop="0dp"
+                        android:paddingStart="10dp"
+                        android:paddingLeft="5dp" />
+
+
+                    <!--<TextView-->
+                        <!--app:layout_constraintRight_toLeftOf="@+id/ivAttachment"-->
+                        <!--android:id="@+id/textView"-->
+                        <!--android:text="fhfhfhfh"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_alignLeft="@+id/progressBar"-->
+                        <!--android:layout_below="@+id/progressBar"/>-->
+
+                </android.support.constraint.ConstraintLayout>
+
+
+
+
+
+
+                <styleandfont.MyTextViewbigr3
+                    android:background="@drawable/whiteb"
+
+
+                    android:drawableTint="@color/colorPrimary"
+                    android:hint="  "
+                    android:gravity="right|center"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:id="@+id/button17"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="10dp" />
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+    </RelativeLayout>
+    <styleandfont.CustomButtona
+        android:text="ارسال المهمة"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    <!--android:text="Digtal Card"-->
+    <!--&lt;!&ndash;android:text="ديجتال كارد"&ndash;&gt;-->
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:id="@+id/material_design_android_floating_action_menu"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--fab:srcCompat="@drawable/ic_border_color_black_24dp"-->
+        <!--android:layout_marginBottom="20dp"-->
+        <!--&gt;-->
+
+    <!--</android.support.design.widget.FloatingActionButton>-->
+</RelativeLayout>
